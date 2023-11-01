@@ -13,7 +13,6 @@
 ※記得要檢查一下 colab 的 Python版本 3.6以下的版本無法運行<br>
 * 接下來，逐個運行程式碼，讓機器學習辨識數字<br>
 ![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example1.png)
-<br>
 * 訓練完成後，運行後續的程式碼檢視機器學期的成果
 * 在「data_for_test」資料夾放入要測試的圖片，運行程式碼讓程式辨識出圖片的數字<br>
 ※放入圖片後記得要更改程式碼中「path」的圖片路徑<br>
