@@ -12,3 +12,6 @@
 * 用googlecolab開啟我們提供的Writing recognition.ipynb檔案<br>
 ※記得要檢查一下 colab 的 Python版本 3.6以下的版本無法運行<br>
 * 
+# 參考資料
+*  [https://blog.csdn.net/weixin_43843172/article/details/109897787](https://blog.csdn.net/weixin_43843172/article/details/109897787)
+*  [https://github.com/zhouwenxiaobupt/-/blob/master/handwrittenDigitPrediction.ipynb](https://github.com/zhouwenxiaobupt/-/blob/master/handwrittenDigitPrediction.ipynb)
