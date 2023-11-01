@@ -17,7 +17,7 @@
 * 在「data_for_test」資料夾放入要測試的圖片，運行程式碼讓程式辨識出圖片的數字<br>
 ※放入圖片後記得要更改程式碼中「path」的圖片路徑<br>
 ![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example2.png)
-<br>
+* 「3」就是範例圖中「test-1.jpg」所描繪的數字
 
 # 參考資料
 *  [https://blog.csdn.net/weixin_43843172/article/details/109897787](https://blog.csdn.net/weixin_43843172/article/details/109897787)
