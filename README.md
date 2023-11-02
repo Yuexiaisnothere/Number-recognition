@@ -119,6 +119,7 @@ y_pred=model.predict(im2arr)
 print(np.argmax(y_pred,axis=1)) //Python
 ```
 ![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example6.png)
+※圖片可以更換成自己想要測試的，但圖片路徑要記得變更
 
 # 參考資料
 *  [https://blog.csdn.net/weixin_43843172/article/details/109897787](https://blog.csdn.net/weixin_43843172/article/details/109897787)
