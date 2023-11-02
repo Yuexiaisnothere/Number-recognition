@@ -16,6 +16,7 @@
 ```Python
 ! pip install tensorflow keras numpy mnist matplotlib //Python
 ```
+![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example1.png)
 ```Python
 import numpy as np
 import mnist
@@ -51,6 +52,7 @@ model.add(Dense(64,activation="relu"))
 model.add(Dense(10,activation="softmax"))
 print(model.summary()) //Python
 ```
+![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example2.png)
 *神經網路模型編譯及訓練
 ```Python
 model.compile(
@@ -64,6 +66,7 @@ print(history.history.keys())
 #print(plt.plot(history.history,["loss"]))
 print(plt.plot(history.history["accuracy"])) //Python
 ```
+![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example3.png)
 ```Python
 * 評估
 model.evaluate(
@@ -77,6 +80,7 @@ print(np.argmax(predictions,axis=1))
 print(test_labels[:5]) //Python
 ```
 * 看看在mnist中的圖片
+![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example4.png)
 ```Python
 for i in range(0,5):
   first_image=test_images[i]
@@ -97,6 +101,7 @@ path="/content/drive/MyDrive/colab/data_for_test"#要更換成data_for_text的�
 os.chdir(path)
 os.listdir(path) //Python
 ```
+![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example5.png)
 * 模型預測
 ```Python
 from PIL import Image
@@ -111,6 +116,7 @@ im2arr=im2arr.reshape(1,784)
 y_pred=model.predict(im2arr)
 print(np.argmax(y_pred,axis=1)) //Python
 ```
+![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example6.png)
 
 # 參考資料
 *  [https://blog.csdn.net/weixin_43843172/article/details/109897787](https://blog.csdn.net/weixin_43843172/article/details/109897787)
