@@ -53,7 +53,7 @@ model.add(Dense(10,activation="softmax"))
 print(model.summary()) //Python
 ```
 ![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example2.png)
-*神經網路模型編譯及訓練
+* 神經網路模型編譯及訓練
 ```Python
 model.compile(
     optimizer="adam",
@@ -67,8 +67,8 @@ print(history.history.keys())
 print(plt.plot(history.history["accuracy"])) //Python
 ```
 ![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example3.png)
-```Python
 * 評估
+```Python
 model.evaluate(
     test_images,to_categorical(test_labels)
 ) //Python
@@ -79,7 +79,7 @@ predictions=model.predict(test_images[:5])
 print(np.argmax(predictions,axis=1))
 print(test_labels[:5]) //Python
 ```
-* 看看在mnist中的圖片
+* 看看在mnist中的圖片<br>
 ![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example4.png)
 ```Python
 for i in range(0,5):
