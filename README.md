@@ -73,14 +73,15 @@ model.evaluate(
     test_images,to_categorical(test_labels)
 ) //Python
 ```
+![](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/predictions.png)
 * 實行預測
 ```Python
 predictions=model.predict(test_images[:5])
 print(np.argmax(predictions,axis=1))
 print(test_labels[:5]) //Python
 ```
+![](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/prediction.png)
 * 看看在mnist中的圖片<br>
-![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example4.png)
 ```Python
 for i in range(0,5):
   first_image=test_images[i]
@@ -89,6 +90,7 @@ for i in range(0,5):
   plt.imshow(pixels,cmap="gray")
   plt.show() //Python
 ```
+![image](https://github.com/Yuexiaisnothere/Number-recognition/blob/main/example4.png)
 
 手寫數字辨識
 ----------
